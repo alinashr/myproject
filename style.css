@@ -1,0 +1,1266 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+}
+
+#nh{
+    background: url("./img/b2.jpg");
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+}
+
+.header{
+/* padding: 30px ; */
+padding-left: 50px;
+display: flex;
+justify-content: space-between;
+text-align: center;
+}
+
+.header .logo{
+    font-size: 35px;
+    padding-top: 0px;
+    padding-top: 20px;
+}
+
+.header .nav{
+    padding-top: 30px;
+}
+
+.header .nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    /* padding-right: ; */
+    padding: 0px 20px;
+}
+
+.header .nav ul a{
+    text-decoration: none;
+    /* color: lawngreen; */
+}
+
+.header .nav ul a li abbr{
+    text-decoration: none;
+    /* color: lawngreen; */
+}
+
+.header .nav ul li abbr:hover{
+    color: lawngreen;
+    transition: 0.6s;
+}
+
+.header .nav ul li{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    /* padding-right: ; */
+    padding: 0px 15px;
+}
+
+.contents{
+    /* border:5px solid yellow; */
+    padding-top: 120px;
+    width: 60%;
+    margin: 0 auto;
+    height: 400px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.contents h2{
+    font-size: 30px;
+}
+
+.contents h1{
+    font-size: 44px;
+}
+
+.contents p{
+    font-size: 16px;
+    word-spacing: 4px;
+    line-height: 30px;
+}
+
+.contents button{
+    margin-top: 40px;
+    margin-right: 15px;
+    border: 2px solid white;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    padding:10px 5px;
+    text-align: center;
+}
+
+.contents button:hover{
+    background: black;
+    transition: 0.9s;
+}
+
+.contents .one{
+background: white;
+color: lightgreen;
+}
+
+.contents .two{
+    background:lightgreen;
+    color: white;
+}
+
+#Theme{
+    padding-top: 70px;
+    padding-right: 0px;
+    width: 50%;
+    /* height: 160px; */
+    margin: 0px auto;
+    text-align: center;
+    line-height: 30px;
+    padding-bottom: 70px;
+}
+
+#Theme h6{
+    color: lightgreen;
+    font-size: 20px;
+}
+
+#Theme h1{
+    color: black;
+    font-size: 25px;
+}
+
+#Theme p{
+    margin:0 auto ;
+    width: 80%;
+    color: grey;
+    font-size: 19px;
+    word-spacing: 4px;
+}
+
+/* Start of #About Section */
+#About{
+    padding: 0px 0px 80px 80px;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    height: 490px;
+}
+
+#About .img{
+    background: url("./img/ab1.jpg");  
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
+
+.content1 {
+    margin-top: 0;
+    padding-left: 50px;
+}
+
+.content1 h2{
+    color: lightgreen;
+    line-height: 30px;
+}
+
+.content1 h3{
+    color: black;
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.content1 p{
+    color: rgb(63, 63, 63);
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: lighter;
+}
+
+.content1 .circles{
+    margin-right: 30px;
+    display: flex;
+    width: 100%;
+    padding-top: 30px;
+}
+
+/* For first circle */
+.content1 .circles .circle1{
+    /* border: 2px linear-gradient(rgb(11, 56, 160)50% , white 20% ); */
+    /* border: 2px solid red; */
+    background-image: conic-gradient(rgb(27, 124, 142) 0deg, rgb(27, 124, 142) 324deg,white 36deg);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+    margin-left: 10px;
+}
+
+.content1 .circles .circle1 .cir1{
+    /* border: 2px solid rgba(184, 169, 169,0.5); */
+    width: 146px;
+    height: 146px;
+    border-radius: 50%;
+    background: white;
+    margin: 0 auto;  
+    position: relative;
+    /* For aligning the third circle in flex */
+    display: flex;
+    align-items: center;
+}
+
+.content1 .circles .circle1 .cir1 .icir1{
+    border: 2px solid rgba(146, 129, 129, 0.2);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: white;
+    margin: 0 auto;  
+}
+
+.content1 .circles .circle1 .cir1 p{
+    color: skyblue;
+    font-size: 30px;
+    position: absolute;
+    top:55px;
+    left: 45px;    
+}
+
+/* For Second Circle */
+.content1 .circles .circle2{
+    /* border: 2px solid red; */
+    background-image: conic-gradient(rgb(15, 61, 23) 0deg, rgb(15, 61, 23) 288deg,white 72deg);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.content1 .circles .circle2 .cir2{
+    /* border: 2px solid rgba(184, 169, 169,0.5); */
+    width: 146px;
+    height: 146px;
+    border-radius: 50%;
+    background: white;
+    margin: 0 auto;  
+    position: relative;
+    /* For aligning the third circle in flex */
+    display: flex;
+    align-items: center;
+}
+
+.content1 .circles .circle2 .cir2 .icir2{
+    border: 2px solid rgba(146, 129, 129, 0.2);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: white;
+    margin: 0 auto;  
+}
+
+.content1 .circles .circle2 .cir2 p{
+    color: rgb(15, 61, 23);
+    font-size: 30px;
+    position: absolute;
+    top:55px;
+    left: 45px;    
+}
+
+/* For third circle */
+.content1 .circles .circle3{
+    /* border: 2px solid red; */
+    background-image: conic-gradient(rgb(130, 130, 17) 0deg, rgb(130, 130, 17) 270deg,white 90deg);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.content1 .circles .circle3 .cir3{
+    /* border: 2px solid rgba(184, 169, 169,0.5); */
+    width: 146px;
+    height: 146px;
+    border-radius: 50%;
+    background: white;
+    margin: 0 auto;  
+    position: relative;
+    /* For aligning the third circle in flex */
+    display: flex;
+    align-items: center;
+}
+
+.content1 .circles .circle3 .cir3 .icir3{
+    border: 2px solid rgba(146, 129, 129, 0.2);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: white;
+    margin: 0 auto;  
+}
+
+.content1 .circles .circle3 .cir3 p{
+    color: rgb(130, 130, 17);
+    font-size: 30px;
+    position: absolute;
+    top:55px;
+    left: 45px;    
+}
+
+/* For the circle footer title */
+ .content1 .bottom{
+    height: 40px;
+    display: flex;
+}
+
+.content1 .bottom p{
+    /* display: flex; */
+    align-items: center;
+    font-size: 18px;
+} 
+
+.content1 .bottom .one{
+    /* display: flex; */
+    padding-left: 40px;
+
+    padding-right: 140px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.content1 .bottom .two{
+    padding-right: 140px;
+}
+/* End of #About Section */
+
+
+/* Start of Services Section */
+#Services{
+    justify-content: center;
+    height: 800px;
+    background:url("./img/s1.jpg");
+    padding-top: 5%;
+}
+
+#Services .info{
+    display: flex;
+    padding-bottom: 5%;
+}
+
+#Services .info p{
+    padding-left: 80px;
+    width: 50%;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 10px;
+} 
+
+#Services .info .desc h6{
+    color: lightgreen;
+    font-size: 24px;
+}
+
+#Services .info .desc h3{
+    color: white;
+    font-size: 40px;
+}
+
+#Services .boxes{
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Services .boxes .box{
+    width: 350px;
+    height: 220px;
+    background: white;
+    font-size: 40px;
+    justify-content: space-around;
+    margin: 20px auto;
+    padding: 10px 38px;
+    line-height: 44px;
+    text-align: center;
+    transition: 1s ease-out;   
+}
+
+#Services .boxes .box i{
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+
+}
+
+#Services .boxes .box p{
+    color: rgb(63, 63, 63);
+    font-size: 20px;
+}
+
+#Services .boxes .box h4{
+    color:lightgreen;
+    font-size: 22px;
+}
+
+#Services .boxes .box:hover{
+    background: rgb(149, 148, 148);
+}
+/* End of Services Section */
+
+
+/* Start of Gallery Section */
+#Gallery{
+margin-top: 40px;
+/* padding-bottom: 40px; */
+/* border: 4px solid yellow; */
+}
+
+#Gallery .content{
+    /* Align Items used with display flex wheras text-align is used with inline element */
+    display: flex;
+    align-items: center;
+}
+
+#Gallery .content .content1{
+    width: 50%;
+    text-align: right;
+    margin-right: 50px;
+    line-height: 50px;
+}
+
+#Gallery .content .content1 h6{
+    color: lightgreen;
+    font-size: 20px;
+}
+
+#Gallery .content .content1 h3{
+    color: rgb(33, 32, 32);
+    font-size: 40px;
+}
+
+#Gallery .content .content2{
+    width: 50%;
+    text-align: left;
+    margin-right: 100px;
+}
+
+#Gallery .content .content2 p{
+    font-size: 16px;
+    word-spacing: 4px;
+    line-height: 30px;
+    color: rgb(63, 63, 63);
+}
+
+#Gallery .gallery {
+    width: 83%;
+    display: grid;
+    gap: 30px;
+    height: 1200px;
+    margin: 50px 0 70px;
+    margin-left: 9%;
+}
+
+/* .container4 .gallery .item {
+    text-align: left;
+
+} */
+
+#Gallery .gallery .item img {
+    width: 100%;
+    height: 100%;
+} 
+#Gallery .gallery .item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 4;
+}
+
+#Gallery .gallery .item2 {
+    grid-column: 3/span 1;
+    grid-row: 1 / span 2;
+}
+
+#Gallery .gallery .item3 {
+    grid-column: 4;
+    grid-row: 1 / span 3;
+}
+
+#Gallery .gallery .item4 {
+    grid-column: 1;
+    grid-row: 5 / span 2;
+}
+
+#Gallery .gallery .item5 {
+    grid-column: 2;
+    grid-row: 5 /span 2;
+}
+
+#Gallery .gallery .item6 {
+    grid-column: 3;
+    grid-row: 4 /span 2;
+}
+
+#Gallery .gallery .item7 {
+    grid-column: 4;
+    grid-row: 4 / span 2;
+}
+
+#Gallery .gallery .item8 {
+    grid-column: 1 / span 2;
+    grid-row: 7 / span 4;
+}
+#Gallery .gallery .item9 {
+    grid-column: 3 / span 2;
+    grid-row: 6 /span 4;
+}
+
+/* Start of work section css */
+#work{
+    margin-top: 40px;
+    width: 100%;
+    height: 40vh;
+    background: #a3c962;
+    display: flex;
+    /* align-items: center; */
+}
+
+#work .save,
+#work .projects,
+#work .plants,
+#work .countries
+{
+    text-align: center;
+    width: 25%;
+    height: 200px;
+    background: #a3c962;
+    padding-top: 65px;
+    line-height: 30px;
+}
+
+#work i{
+    text-align: center;
+    font-size: 20px;
+    /* color: #000; */
+}
+
+#work h3{
+    color: black;
+    font-size: 25px;
+}
+
+#work p{
+    /* color: black; */
+    font-size: 25px;
+}
+/* End of work section css */
+
+/* Start of Features Section */
+#features {
+    width: 100%;
+    height: 200px;
+    /* padding-top: 0px; */
+}
+#features .desc{
+    padding-top: -10px;
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+
+#features .desc .para{
+    width: 50%;
+    font-size: 18px;
+    text-align: right;
+    padding-right: 30px;
+    margin-left: 40px;
+}
+
+#features .desc .para p{
+    color: rgb(63, 63, 63);
+    line-height: 30px;
+
+}
+
+#features .desc .contents{
+    margin-top: 90px;
+}
+
+#features .desc .contents h2{
+    width: 50%;
+    text-align: left;
+    color: black;
+    font-size: 34px;
+}
+
+#features .desc .contents h6{
+    width: 50%;
+    color: lightgreen;
+    font-size: 24px;
+    text-align: left;
+}
+
+#features .boxes .contents{
+    border: 12px solid yellow;
+    /* padding: 110px 10px; */
+}
+
+/* Container of Feature Section */
+#container-features{
+    display: flex;
+    height: 450px;
+    margin: 0 90px;
+    /* margin-right: 50px; */
+}
+
+#container-features img{
+    margin-right: 90px;
+}
+
+#container-features .boxes{
+    height: 450px;
+    margin-bottom: 10%;
+    /* padding: 10px 10px; */
+}
+
+#container-features .box1,.box3,.box2{
+    width:100%;
+    height: 140px;
+    padding-top:40px;
+    padding-bottom:40px;
+    border-radius: 14px;
+    box-shadow: 10px 10px 10px;
+    margin-bottom: 15px;
+    box-shadow: -3px 7px 39px -5px rgb(0, 0, 0);
+}
+
+#container-features .box2{
+    margin-left: 20px;
+}
+
+#container-features .boxes h3{
+    color:lightgreen;
+    font-size: 22px;  
+}
+
+#container-features .boxes p{
+    color: rgb(63, 63, 63);
+    font-size: 18px;  
+}
+
+/* Aligning the icons and h3, p */
+#container-features .boxes .box1 .fa-solid,
+#container-features .boxes .box2 .fa-solid,
+#container-features .boxes .box3 .fa-solid{
+    width: 30%;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+    color: black;
+}
+
+#container-features .boxes .box1{
+    display: flex;
+    align-items: center;
+}
+
+#container-features .boxes .box1 .contents,
+#container-features .boxes .box2 .contents,
+#container-features .boxes .box3 .contents{
+    margin-top: 60px;
+}
+
+#container-features .box2{
+    display: flex;
+    align-items: center;
+}
+
+#container-features .box3{
+    display: flex;
+    align-items: center;
+}
+/* End of container-features Section */
+
+/* Start of price */
+
+#price{
+    background: url("./img/b2.jpg");
+    width: 100vw;
+    height: 630px;
+    margin-top: 70px;
+    padding-bottom: 180px;
+}
+
+#price .content,
+#blog .content{
+    /* Align Items used with display flex wheras text-align is used with inline element */
+    display: flex;
+    align-items: center;
+    padding: 60px 60px 20px 20px;
+    /* padding-bottom: 60px; */
+}
+
+#price .content .content1,
+#blog .content .content1{
+    width: 50%;
+    text-align: right;
+    margin-right: 50px;
+    line-height: 50px;
+}
+
+#price .content .content1 h6,
+#blog .content .content1 h6{
+    color: lightgreen;
+    font-size: 20px;
+}
+
+#price .content .content1 h3,
+#blog .content .content1 h3{
+    color: white;
+    font-size: 40px;
+}
+
+#price .content .content2,
+#blog .content .content2{
+    width: 50%;
+    text-align: left;
+    margin-right: 100px;
+}
+
+#price .content .content2 p,
+#blog .content .content2 p{
+    font-size: 16px;
+    word-spacing: 4px;
+    line-height: 30px;
+    color: white;
+}
+
+#price .boxes{
+    /* width: 100vw; */
+    /* border: 4px solid yellow; */
+    margin-top: 30px;
+    display: flex;
+    margin-left: 50px;
+}
+
+#price .boxes .boxx{
+    margin: 10px 0px;
+    height: 350px;
+    width: 280px;
+    background: white;
+    margin-right: 13px;
+    padding:40px 80px;
+    /* text-align: center; */
+}
+
+#price .boxes .boxx h4{
+    color: lightgreen;
+    font-size: 24px;
+}
+
+#price .boxes .boxx p{
+    color: rgb(63, 63, 63);
+    font-size: 16px;
+    line-height: 30px;
+}
+
+#price .boxes .boxx h3{
+    color: rgb(63, 63, 63);
+    font-size: 16px;
+    line-height: 30px;
+}
+
+#price .boxes .boxx .amt{
+    color: lightgreen;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+#price .boxes .boxx .dollar{
+    color: black;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#price .boxes .boxx .book:hover{
+    background: black;
+}
+#price .boxes .boxx .book{
+    background: lightgreen;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    padding-top: 4px;
+    transition: 1s;
+
+}
+
+#price .boxes .boxx .book p{
+    font-size: 14px;
+    color:white;
+    text-align: center;
+}
+
+/* End of price section */
+
+/* Start of review section */
+#review{
+    width: 100%;
+    padding-top: 5%;
+}
+
+#review .info{
+    /* border: 4px solid goldenrod; */
+    display: flex;
+    /* align-items: center; */
+    padding-bottom: 2%;
+}
+
+#review .info p{
+    padding-left: 80px;
+    width: 50%;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 10px;
+    color: rgb(63, 63, 63);
+} 
+
+#review .info .desc h6{
+    color: lightgreen;
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+#review .info .desc h3{
+    color: white;
+    font-size: 40px;
+}
+
+#review .containers{
+    padding: 20px 20px;
+    /* border: 5px solid green; */
+    display: flex;
+    width: 100%;
+    height: 450px;
+}
+
+#review .containers .container{
+    padding: 20px 20px;
+    /* border: 2px solid green; */
+    display: flex;
+    width: 100%;
+    /* height: 400px; */
+}
+
+#review .containers .container .person{
+    /* border: 1px solid rgb(167, 166, 166);     */
+    border-radius: 10px;
+    padding: 5px;
+    height: 300px;
+    padding-bottom: 770px;
+}
+
+#review .containers .container .person img{
+    border: 1px solid grey;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+ #review .containers .container .desc h3,
+ #review .containers .container .desc h6,
+ #review .containers .container .desc p{
+    color: black;
+    margin-bottom: 10px;
+} 
+#review .containers .container .desc h3{
+    color:lightgreen;
+}
+#review .containers .container .desc h6{
+    font-size: 16px;
+}
+#review .containers .container .desc p{
+    line-height: 30px;
+}
+
+
+/* End of review section */
+
+/* Start of video section */
+#video{
+    width: 100%;
+    height: 250px;
+    background: lightgreen;
+    text-align: center;
+    padding: 30px 100px;
+}
+#video h3{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+#video p{
+
+    color: rgb(63, 63, 63);
+    text-align: center;
+    font-size: 18px;
+}
+
+#video .circle{
+    margin-bottom: 30px;
+}
+#video .circle i{
+    font-size: 30px;
+    text-align: center;
+    border:10px solid white;
+    border-radius: 50%;
+    color: black;
+    background: white;
+}
+
+#video .circle i:hover{
+    border-color: black;
+    color: white;
+    background: black;
+
+}
+
+/* #video .circle .fa-solid{
+    color: white;
+} */
+/* End of video section */
+
+/* Start of volunteer section */
+#volunteer{
+    /* background: red; */
+    /* border: 4px solid yellow; */
+    width: 100%;
+    justify-content: center;
+    /* height: 1800px; */
+    /* background:url("./img/s1.jpg"); */
+    padding-top: 5%;
+}
+
+#volunteer .info{
+    display: flex;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+#volunteer .info p{
+    padding-left: 80px;
+    width: 50%;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 10px;
+    color: rgb(63, 63, 63);
+} 
+
+#volunteer .info .desc h6{
+    color: lightgreen;
+    font-size: 24px;
+}
+
+#volunteer .info .desc h3{
+    color: black;
+    font-size: 40px;
+}
+
+#volunteer .images{
+    margin:0 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#volunteer .images .img1{
+    height: 500px;
+}
+
+#volunteer .images .img1 .desc h4{
+    color:lightgreen;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+#volunteer .images .img1 .desc p{
+    color:black;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#volunteer .images .img1 .desc{
+    text-align: center;
+    margin-top: 30px;
+    /* border: 6px solid red; */
+    /* margin: 50px; */
+}
+
+#volunteer .images .img1 .desc .icons{
+    display: flex;
+    width: 150px;
+    margin-left: 50px;
+}
+
+#volunteer .images .img1 .desc .icons i{
+    margin: 0 auto;
+    color: black;
+    font-size: 30px;
+    /* margin-right: 5px; */
+    text-align: center;
+}
+/* End of volunteer section */
+
+/* start of blog section */
+#blog{
+    width: 100%;
+    height: 800px;
+    background: url("./img/b1.jpg");
+}
+
+/* I have merged other css on price section above */
+#blog .boxes{
+    /* border: 5px solid rgb(72, 25, 25); */
+    margin: 0 0 60px 60px;
+    margin-top: 30px;
+    display: flex;
+}
+
+#blog .boxes .box{
+    /* border: 4px solid red; */
+    margin: 10px 10px ;
+    height: 500px;
+    width: 350px;
+    background: white;
+    margin-right: 13px;
+    padding:20px;
+    /* text-align: center; */
+}
+
+#blog .boxes .box img{
+    width: 100%;
+    height: 50%;
+}
+
+#blog .boxes .box .desc{
+    /* border: 3px solid green; */
+    /* justify-content: left; */
+    /* width: 100%; */
+    height: 200px;
+    /* color:black; */
+}
+
+#blog .boxes .box .desc h3::before{
+    content:"Blog";
+    display: block;
+    line-height: 30px;
+    color: rgb(63, 63, 63);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+#blog .boxes .box .desc h3{
+    color: lightgreen;
+}
+
+#blog .boxes .box .desc p{
+    font-size: 16px;
+    color: rgb(63, 63, 63);
+    line-height: 30px;
+}
+
+
+#blog .boxes .box .desc .bottom{
+    display: flex;
+    justify-content: space-between;
+}
+/* end of blog section */
+
+/* Start of contact section */
+#contact{
+    background: white;
+    /* border: 4px solid yellow; */
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    /* height: 1800px; */
+    /* background:url("./img/s1.jpg"); */
+    padding-top: 5%;
+}
+
+#contact .info{
+    /* border: 4px solid rgb(41, 26, 136); */
+    display: flex;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+#contact .info p{
+    padding-left: 80px;
+    width: 50%;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 10px;
+    color: rgb(63, 63, 63);
+} 
+
+#contact .info .desc h6{
+    color: lightgreen;
+    font-size: 24px;
+}
+
+#contact .info .desc h3{
+    color: black;
+    font-size: 40px;
+}
+
+#contact .info2{
+    margin: 0 50px;
+    display: flex;
+
+}
+
+#contact .info2 .form{
+    margin: 30px;
+    /* border: 4px solid green; */
+    width: 50%;
+    /* height: 395px; */
+}
+#contact .info2 .form .name,
+#contact .info2 .form .email,
+#contact .info2 .form .phone
+{
+    background: #efefef;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid gray;
+    border-radius: 4px;
+    color:rgb(52, 51, 51);
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+#contact .info2 .form .message{
+    background: #efefef;
+    width: 100%;
+    height: 140px;
+    border-bottom: 2px solid gray;
+    border-radius: 4px;
+    color:black;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+#contact .info2 .form .send{
+    padding-top: 10px;
+    border-radius: 50px;
+    background: #efefef;
+    width: 100%;
+    height: 40px;
+    background: lightgreen;
+    text-align: center;
+}
+
+#contact .info2 .details{
+    /* border: 4px solid green; */
+    width: 50%;
+    padding: 20px 20px;
+    /* height:398px; */
+}
+
+#contact .info2 .details .address i,
+#contact .info2 .details .phone i,
+#contact .info2 .details .email i
+{
+    color: black;
+    font-size: 30px;
+    margin-right: 40px;
+}
+
+#contact .info2 .details .address,
+#contact .info2 .details .phone,
+#contact .info2 .details .email{
+    /* border: 3px solid gold; */
+    display: flex;
+    height: 33%;
+    align-items: center;
+    /* text-align: center; */
+}
+
+#contact .info2 .details .address .desc p,h3,
+#contact .info2 .details .phone .desc p,h3,
+#contact .info2 .details .email .desc p,h3{
+    line-height: 30px;
+}
+
+#contact .info2 .details .address h3,
+#contact .info2 .details .phone h3,
+#contact .info2 .details .email h3{
+    color: lightgreen;
+    font-size: 18px;
+}
+#contact .info2 .details .address p,
+#contact .info2 .details .phone p,
+#contact .info2 .details .email p{
+    color: rgb(63, 63, 63);
+    font-size: 16px;
+}
+/* End of contact section */
+
+/* Start of map section */
+#map{
+    width: 100vw;
+    height: 345px;
+    /* border: 5px solid yellow; */
+}
+
+#map .border{
+    border: 1px solid rgb(148, 148, 148);
+    padding: 5px 5px;
+}
+/* End of map section */
+
+/* Start of Footer Section */
+#footer{
+    padding: 20px  50px 0 0;
+    width: 100%;
+    height: 150px;
+    background: lightgreen;
+    text-align: center;
+    /* margin-bottom: 0; */
+}
+
+#footer p{
+    color: white;
+}
+
+#footer .icons{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#footer .icons i{
+    font-size: 20px;
+    color: black;
+    padding: 0 5px;
+}
+
+#footer .up i{
+    height: 30px;
+    width: 30px;
+    background: black;
+    font-size: 20px;
+    border-radius: 50%;
+    color: white;
+    padding: 0 5px;
+}
+
+/* End of Footer Section */
